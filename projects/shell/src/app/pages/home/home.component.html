@@ -1,0 +1,20 @@
+<div class="px-4 py-5 my-5 text-center">
+  <h1 class="display-5 fw-bold text-body-emphasis">Microfront End Demo</h1>
+  <div class="col-lg-6 mx-auto">
+    <p class="lead mb-4">
+      There are two different projects here to look at. I am the host app! also
+      called a shell app.
+    </p>
+    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+      <a routerLink="/todo" class="btn btn-primary btn-lg px-4 gap-3">
+        Todos
+      </a>
+      <a routerLink="/users" class="btn btn-outline-secondary btn-lg px-4">
+        Users
+      </a>
+    </div>
+  </div>
+</div>
+
+<button (click)="sendDataToTodo()">Send Data to Todo</button>
+
